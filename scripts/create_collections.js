@@ -2,9 +2,13 @@
 
 db = db.getSiblingDB("AgentChecklistDB");
 
-db.createCollection("users");
-db.createCollection("checklistItems");
-db.createCollection("notifications");
-db.createCollection("reports");
+// 01_create_collections.js
 
-print("Collections created successfully.");
+
+
+// Create main collections
+db.createCollection("users");
+db.createCollection("checklistItems"); 
+db.createCollection("notifications");
+
+print("Collections created successfully (users, checklistItems, notifications).");
