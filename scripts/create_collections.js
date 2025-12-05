@@ -1,31 +1,26 @@
-require("dotenv").config();
-const { MongoClient } = require("mongodb");
+require('dotenv').config();
+const { MongoClient } = require('mongodb');
 
-async function createCollections() {
+async function setupCollections() {
   const uri = process.env.MONGO_URI;
-  if (!uri) return console.error("❌ Missing MONGO_URI in .env");
-
   const client = new MongoClient(uri);
 
   try {
     await client.connect();
-    console.log("✅ Connected to MongoDB");
-
     const db = client.db("AgentChecklistDB");
+    console.log("Connected to MongoDB");
 
-    // Only 3 collections (reports embedded → NOT separate)
+    // Create needed collections
     await db.createCollection("users");
     await db.createCollection("checklistItems");
     await db.createCollection("notifications");
 
-    console.log("✅ Collections created: users, checklistItems, notifications");
-
+    console.log("Collections created successfully.");
   } catch (err) {
-    console.error("❌ Error creating collections:", err);
+    console.error("Error creating collections:", err);
   } finally {
     await client.close();
-    console.log("🔌 MongoDB connection closed");
   }
 }
 
-createCollections();
+setupCollections();
