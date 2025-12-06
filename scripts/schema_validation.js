@@ -18,17 +18,25 @@ async function applyValidation() {
       validator: {
         $jsonSchema: {
           bsonType: "object",
-          required: ["userId", "name", "email", "checklists"],
+
+          
+          required: ["userId", "name", "email", "password", "checklists"],
+
           properties: {
             userId: { bsonType: "int" },
             name: { bsonType: "string" },
             email: { bsonType: "string" },
 
+            
+            password: { bsonType: "string" },
+
             checklists: {
               bsonType: "array",
               items: {
                 bsonType: "object",
+
                 required: ["checklistId", "title", "description", "status", "tasks", "report"],
+
                 properties: {
                   checklistId: { bsonType: "int" },
                   title: { bsonType: "string" },

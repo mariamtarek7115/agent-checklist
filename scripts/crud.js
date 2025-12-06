@@ -1,5 +1,7 @@
-require('dotenv').config();
-const { MongoClient } = require('mongodb');
+require("dotenv").config();
+const { MongoClient, Int32 } = require("mongodb");
+
+
 
 async function runCRUDOperations() {
   const uri = process.env.MONGO_URI;
@@ -12,51 +14,81 @@ async function runCRUDOperations() {
 
   try {
     await client.connect();
-    console.log("Connected to MongoDB");
+    console.log("✅ Connected to MongoDB");
 
     const db = client.db("AgentChecklistDB");
 
-    // -----------------------------
-    // 1️⃣ READ example
-    // -----------------------------
-    const usersInProgress = await db.collection("users").find({ "checklists.status": "In Progress" }).toArray();
-    console.log("Read: Users with In Progress checklists:", usersInProgress);
+    
+    const usersInProgress = await db
+      .collection("users")
+      .find({ "checklists.status": "In Progress" })
+      .toArray();
 
-    // -----------------------------
-    // 2️⃣ UPDATE example
-    // -----------------------------
+    console.log(" Read: Users with In Progress checklists:");
+    console.dir(usersInProgress, { depth: null });
+
+    
+    // Set checklist 101 status to "Completed"
+
     const updateResult = await db.collection("users").updateOne(
-      { "checklists.checklistId": 101 },
+      { "checklists.checklistId": new Int32(101) },
       { $set: { "checklists.$.status": "Completed" } }
     );
-    console.log(`Update: Modified ${updateResult.modifiedCount} checklist(s).`);
+    console.log(` Update: Modified ${updateResult.modifiedCount} checklist(s).`);
 
-    // -----------------------------
-    // 3️⃣ DELETE example
-    // -----------------------------
-    const deleteResult = await db.collection("users").deleteOne({ userId: 2 });
-    console.log(`Delete: Deleted ${deleteResult.deletedCount} user(s).`);
+    
+    
+    // Delete user with userId = 2
+    
+    const deleteResult = await db
+      .collection("users")
+      .deleteOne({ userId: new Int32(2) });
 
-    // -----------------------------
-    // 4️⃣ INSERT example (new user)
-    // -----------------------------
+    console.log(` Delete: Deleted ${deleteResult.deletedCount} user(s).`);
+
+   
+    
+  
     const insertResult = await db.collection("users").insertOne({
-      userId: 3,
+      userId: new Int32(9),
       name: "Toka ElSayed",
       email: "toka.e@example.com",
+      password: "toka123",
       checklists: [
-        { checklistId: 103, title: "Monthly Reports", status: "Pending", tasks: [{ taskId: 3001, title: "Prepare report" }] }
+        {
+          checklistId: new Int32(109),
+          title: "Monthly Reports",
+          description: "Prepare and review monthly performance reports.",
+          status: "Pending",
+          report: {
+            progressPercent: new Int32(0),
+            date: new Date("2025-12-10")
+          },
+          tasks: [
+            {
+              taskId: new Int32(9001),
+              title: "Collect sales data",
+              signOff: { timestamp: new Date("2025-12-10T09:00:00Z") }
+            },
+            {
+              taskId: new Int32(9002),
+              title: "Generate summary report",
+              signOff: { timestamp: new Date("2025-12-10T10:00:00Z") }
+            }
+          ]
+        }
       ]
     });
-    console.log("Insert: Added new user:", insertResult.insertedId);
+
+    console.log(" Insert: Added new user with _id:", insertResult.insertedId);
 
   } catch (err) {
-    console.error("Error in CRUD operations:", err);
+    console.error("❌ Error in CRUD operations:", err);
   } finally {
     await client.close();
-    console.log("MongoDB connection closed");
+    console.log("🔌 MongoDB connection closed");
   }
 }
 
-// Run the CRUD operations
+
 runCRUDOperations();
