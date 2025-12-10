@@ -1,0 +1,53 @@
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\mongocrypt.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Advanced Database Project.exe.config
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Advanced Database Project.exe
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Advanced Database Project.pdb
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\AWSSDK.Core.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\AWSSDK.SecurityToken.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\DnsClient.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Bson.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Driver.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\SharpCompress.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Snappier.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Buffers.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Memory.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Security.AccessControl.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\ZstdSharp.dll
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\AWSSDK.Core.pdb
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\AWSSDK.Core.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\AWSSDK.SecurityToken.pdb
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\AWSSDK.SecurityToken.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\DnsClient.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Microsoft.Win32.Registry.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Bson.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Driver.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\MongoDB.Libmongocrypt.pdb
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\Snappier.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Buffers.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Memory.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Security.AccessControl.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\obj\Debug\DatabaseProject.csproj.AssemblyReference.cache
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\obj\Debug\Advanced_Database_Project.Properties.Resources.resources
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\obj\Debug\DatabaseProject.csproj.GenerateResource.cache
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\obj\Debug\DatabaseProject.csproj.CoreCompileInputs.cache
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\obj\Debug\DatabaseProject.csproj.CopyComplete
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\obj\Debug\Advanced Database Project.exe
+C:\Users\NEW LAP\Desktop\Visual studio\Advanced Database Project\obj\Debug\Advanced Database Project.pdb
